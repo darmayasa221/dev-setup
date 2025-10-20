@@ -1,0 +1,84 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.sideBar.location": "right",
+  "editor.fontSize": 13,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.cursorBlinking": "expand",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "eslint.format.enable": true,
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "relative",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "editor.tabSize": 2,
+  "editor.guides.bracketPairs": "active",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "files.eol": "\n",
+  "git.suggestSmartCommit": false,
+  "git.autofetch": true,
+  "go.autocompleteUnimportedPackages": true,
+  // "go.alternateTools": {
+
+  // },
+  // "go.goroot": "/Users/taksutech/.gvm/gos/go1.18.10",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "cSpell.userWords": ["dynamicbooking", "gorm", "Xunit"],
+  "terminal.integrated.defaultProfile.osx": "bash",
+  "go.toolsManagement.autoUpdate": true,
+  "dotnetAcquisitionExtension.existingDotnetPath": [
+    {
+      "extensionId": "msazurermtools.azurerm-vscode-tools",
+      "path": "/usr/local/share/dotnet/sdk"
+    }
+  ],
+  "omnisharp.sdkPath": "/usr/local/share/dotnet/sdk/6.0.413",
+  "omnisharp.sdkVersion": "6.0.413",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.confirmSync": false,
+  "php.executablePath": "/usr/local/bin/php",
+  "gitlens.ai.model": "openai:o1-preview",
+  "terminal.integrated.autoReplies": {},
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "makefile.configureOnOpen": true
+}
